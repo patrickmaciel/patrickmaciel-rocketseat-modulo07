@@ -44,7 +44,7 @@ export const ProductTable = styled.table`
     td {
       padding: 12px;
       vertical-align: middle;
-      border-bottom: 1px solid #333;
+      border-bottom: 1px solid #ccc;
 
       img {
         height: 100px;

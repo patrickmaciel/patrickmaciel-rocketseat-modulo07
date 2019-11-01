@@ -8,8 +8,6 @@ import {
 
 import { Container, ProductTable, Total } from './styles';
 
-import tenis from '../../assets/images/tenis.png';
-
 function Cart({ cart }) {
   return (
     <Container>
@@ -39,7 +37,7 @@ function Cart({ cart }) {
                     <MdRemoveCircleOutline size={20} color="#7159c1" />
                   </button>
 
-                  <input type="number" readOnly value={1} />
+                  <input type="number" readOnly value={product.amount} />
 
                   <button type="button">
                     <MdAddCircleOutline size={20} color="#7159c1" />
