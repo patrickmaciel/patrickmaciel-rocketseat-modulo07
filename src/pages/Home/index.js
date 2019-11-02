@@ -31,6 +31,9 @@ class Home extends Component {
     const { addToCartRequest } = this.props;
 
     addToCartRequest(id);
+
+    // Se executar desta forma, ambas as ações serão executadas ao mesmo tempo
+    // this.props.history.push('/cart');
   };
 
   render() {
